@@ -36,7 +36,7 @@ const EXAMREADY_DATA = {
             "tags": ["Task 2", "ASP.NET"],
             "filename": "01_Setup_MVC_Environment.pdf",
             "path": "pdfs/guides/01_Setup_MVC_Environment.pdf",
-            "updated": "2026-02-01"
+            "updated": "2026-02-12"
         },
         {
             "id": "doc002",
@@ -46,7 +46,7 @@ const EXAMREADY_DATA = {
             "tags": ["Task 2", "ASP.NET", "Database"],
             "filename": "02_Create_Table_Products.pdf",
             "path": "pdfs/guides/02_Create_Table_Products.pdf",
-            "updated": "2026-02-01"
+            "updated": "2026-01-13"
         },
         {
             "id": "doc003",
@@ -56,7 +56,7 @@ const EXAMREADY_DATA = {
             "tags": ["Task 2", "Database", "ASP.NET"],
             "filename": "03_Seed_Products_Data.pdf",
             "path": "pdfs/guides/03_Seed_Products_Data.pdf",
-            "updated": "2026-02-01"
+            "updated": "2026-01-14"
         },
         {
             "id": "doc004",
@@ -66,7 +66,7 @@ const EXAMREADY_DATA = {
             "tags": ["Task 2", "ASP.NET"],
             "filename": "04_Display_Products_Index.pdf",
             "path": "pdfs/guides/04_Display_Products_Index.pdf",
-            "updated": "2026-02-01"
+            "updated": "2026-01-15"
         },
         {
             "id": "doc005",
@@ -96,7 +96,7 @@ const EXAMREADY_DATA = {
             "tags": ["Task 2", "ASP.NET"],
             "filename": "07_Install_Identity_And_Add_ApplicationUser.pdf",
             "path": "pdfs/guides/07_Install_Identity_And_Add_ApplicationUser.pdf",
-            "updated": "2026-02-01"
+            "updated": "2026-02-02"
         },
         {
             "id": "doc008",
@@ -106,7 +106,7 @@ const EXAMREADY_DATA = {
             "tags": ["Task 2", "ASP.NET"],
             "filename": "08_Roles_Seed_Admin_User.pdf",
             "path": "pdfs/guides/08_Roles_Seed_Admin_User.pdf",
-            "updated": "2026-02-01"
+            "updated": "2026-02-02"
         },
         {
             "id": "doc009",
