@@ -113,7 +113,7 @@ const EXAMREADY_DATA = {
             "title": "9. User Registration System",
             "type": "guide",
             "task": "Task 2",
-            "tags": ["Task 2"],
+            "tags": ["Task 2", "ASP.NET"],
             "filename": "09_User_Registration_System.pdf",
             "path": "pdfs/guides/09_User_Registration_System.pdf",
             "updated": "2026-02-03"
