@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="T Level task walkthroughs and resources">
+    <title>Tasks | ExamReady</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <span class="brand-name">ExamReady</span>
+                    <span class="brand-subtitle">T Levels Hub</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="guides.html">Guides</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="tasks.html">Tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="past-questions.html">Past Questions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn-theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                                <i class="bi bi-sun-fill"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <section class="page-header">
+                <h1 class="page-title">Task Walkthroughs</h1>
+                <p class="page-description">Structured guides for each T Level task component</p>
+            </section>
+
+            <!-- Task Tabs -->
+            <section class="task-tabs-section">
+                <ul class="nav nav-tabs task-tabs" id="taskTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="task1-tab" data-bs-toggle="tab" data-bs-target="#task1" type="button" role="tab">
+                            Task 1
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="task2-tab" data-bs-toggle="tab" data-bs-target="#task2" type="button" role="tab">
+                            Task 2
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="task3a-tab" data-bs-toggle="tab" data-bs-target="#task3a" type="button" role="tab">
+                            Task 3A
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="task3b-tab" data-bs-toggle="tab" data-bs-target="#task3b" type="button" role="tab">
+                            Task 3B
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="tab-content task-tab-content" id="taskTabContent">
+                    <!-- Task 1 Content -->
+                    <div class="tab-pane fade show active" id="task1" role="tabpanel">
+                        <div class="task-controls">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="search-box">
+                                        <i class="bi bi-search"></i>
+                                        <input type="text" id="searchTask1" class="form-control" placeholder="Search Task 1 guides...">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <select id="tagFilterTask1" class="form-select">
+                                        <option value="">All Tags</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <select id="sortTask1" class="form-select">
+                                        <option value="title-asc">Title (A-Z)</option>
+                                        <option value="title-desc">Title (Z-A)</option>
+                                        <option value="date-desc">Newest First</option>
+                                        <option value="date-asc">Oldest First</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-info">
+                            <span id="resultsCountTask1">0 guides</span>
+                        </div>
+                        <div class="guides-grid" id="task1Container">
+                            <div class="loading-state">
+                                <div class="spinner-border" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-state" id="emptyStateTask1" style="display: none;">
+                            <i class="bi bi-inbox"></i>
+                            <h3>No guides found</h3>
+                            <p>Try adjusting your search or filters</p>
+                        </div>
+                    </div>
+
+                    <!-- Task 2 Content -->
+                    <div class="tab-pane fade" id="task2" role="tabpanel">
+                        <div class="task-controls">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="search-box">
+                                        <i class="bi bi-search"></i>
+                                        <input type="text" id="searchTask2" class="form-control" placeholder="Search Task 2 guides...">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <select id="tagFilterTask2" class="form-select">
+                                        <option value="">All Tags</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <select id="sortTask2" class="form-select">
+                                        <option value="title-asc">Title (A-Z)</option>
+                                        <option value="title-desc">Title (Z-A)</option>
+                                        <option value="date-desc">Newest First</option>
+                                        <option value="date-asc">Oldest First</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-info">
+                            <span id="resultsCountTask2">0 guides</span>
+                        </div>
+                        <div class="guides-grid" id="task2Container">
+                            <div class="loading-state">
+                                <div class="spinner-border" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-state" id="emptyStateTask2" style="display: none;">
+                            <i class="bi bi-inbox"></i>
+                            <h3>No guides found</h3>
+                            <p>Try adjusting your search or filters</p>
+                        </div>
+                    </div>
+
+                    <!-- Task 3A Content -->
+                    <div class="tab-pane fade" id="task3a" role="tabpanel">
+                        <div class="task-controls">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="search-box">
+                                        <i class="bi bi-search"></i>
+                                        <input type="text" id="searchTask3a" class="form-control" placeholder="Search Task 3A guides...">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <select id="tagFilterTask3a" class="form-select">
+                                        <option value="">All Tags</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <select id="sortTask3a" class="form-select">
+                                        <option value="title-asc">Title (A-Z)</option>
+                                        <option value="title-desc">Title (Z-A)</option>
+                                        <option value="date-desc">Newest First</option>
+                                        <option value="date-asc">Oldest First</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-info">
+                            <span id="resultsCountTask3a">0 guides</span>
+                        </div>
+                        <div class="guides-grid" id="task3aContainer">
+                            <div class="loading-state">
+                                <div class="spinner-border" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-state" id="emptyStateTask3a" style="display: none;">
+                            <i class="bi bi-inbox"></i>
+                            <h3>No guides found</h3>
+                            <p>Try adjusting your search or filters</p>
+                        </div>
+                    </div>
+
+                    <!-- Task 3B Content -->
+                    <div class="tab-pane fade" id="task3b" role="tabpanel">
+                        <div class="task-controls">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="search-box">
+                                        <i class="bi bi-search"></i>
+                                        <input type="text" id="searchTask3b" class="form-control" placeholder="Search Task 3B guides...">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <select id="tagFilterTask3b" class="form-select">
+                                        <option value="">All Tags</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <select id="sortTask3b" class="form-select">
+                                        <option value="title-asc">Title (A-Z)</option>
+                                        <option value="title-desc">Title (Z-A)</option>
+                                        <option value="date-desc">Newest First</option>
+                                        <option value="date-asc">Oldest First</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-info">
+                            <span id="resultsCountTask3b">0 guides</span>
+                        </div>
+                        <div class="guides-grid" id="task3bContainer">
+                            <div class="loading-state">
+                                <div class="spinner-border" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-state" id="emptyStateTask3b" style="display: none;">
+                            <i class="bi bi-inbox"></i>
+                            <h3>No guides found</h3>
+                            <p>Try adjusting your search or filters</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- PDF Preview Modal (Desktop Only) -->
+    <div class="modal fade" id="pdfPreviewModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pdfPreviewTitle">Preview</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="pdfPreviewFrame" width="100%" height="600px" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-text">Unofficial study hub for our T Level class. Materials belong to their respective owners. This site is for revision and classroom support only.</p>
+            <p class="footer-meta">&copy; 2025 ExamReady | Built for students, by students</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/tasks.js"></script>
+</body>
+</html>

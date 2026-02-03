@@ -1,0 +1,20 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Optional: Uncomment if you want to exclude PDFs from version control
+# pdfs/**/*.pdf
+
+# Keep directory structure
+!pdfs/**/.gitkeep

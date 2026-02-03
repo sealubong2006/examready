@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frequently asked questions about T Level exams">
+    <title>FAQ | ExamReady</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <span class="brand-name">ExamReady</span>
+                    <span class="brand-subtitle">T Levels Hub</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="guides.html">Guides</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tasks.html">Tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="past-questions.html">Past Questions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn-theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                                <i class="bi bi-sun-fill"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <section class="page-header">
+                <h1 class="page-title">Frequently Asked Questions</h1>
+                <p class="page-description">Browse common questions or submit your own</p>
+            </section>
+
+            <!-- Submission Buttons -->
+            <section class="faq-actions">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <a href="#" id="submitAnswerBtn" class="action-card" target="_blank" rel="noopener">
+                            <i class="bi bi-chat-left-text"></i>
+                            <div>
+                                <h3>Submit an Answer</h3>
+                                <p>Share your knowledge with the community</p>
+                            </div>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="#" id="appreciateBtn" class="action-card" target="_blank" rel="noopener">
+                            <i class="bi bi-heart"></i>
+                            <div>
+                                <h3>Appreciate Content</h3>
+                                <p>Let us know what helped you</p>
+                            </div>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Categories -->
+            <section class="faq-section" id="faqContainer">
+                <!-- Populated by JavaScript -->
+                <div class="loading-state">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Empty State -->
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <i class="bi bi-inbox"></i>
+                <h3>No FAQ entries yet</h3>
+                <p>Check back soon for frequently asked questions</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-text">Unofficial study hub for our T Level class. Materials belong to their respective owners. This site is for revision and classroom support only.</p>
+            <p class="footer-meta">&copy; 2025 ExamReady | Built for students, by students</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/faq.js"></script>
+</body>
+</html>

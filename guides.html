@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse comprehensive T Level study guides">
+    <title>Guides | ExamReady</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <span class="brand-name">ExamReady</span>
+                    <span class="brand-subtitle">T Levels Hub</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="guides.html">Guides</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tasks.html">Tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="past-questions.html">Past Questions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn-theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                                <i class="bi bi-sun-fill"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <section class="page-header">
+                <h1 class="page-title">Study Guides</h1>
+                <p class="page-description">Browse comprehensive guides organized by topic and task</p>
+            </section>
+
+            <!-- Filters and Search -->
+            <section class="filters-section">
+                <div class="row g-3">
+                    <div class="col-md-5">
+                        <div class="search-box">
+                            <i class="bi bi-search"></i>
+                            <input type="text" id="searchInput" class="form-control" placeholder="Search guides...">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <select id="tagFilter" class="form-select">
+                            <option value="">All Tags</option>
+                            <!-- Populated by JavaScript -->
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select id="sortBy" class="form-select">
+                            <option value="title-asc">Title (A-Z)</option>
+                            <option value="title-desc">Title (Z-A)</option>
+                            <option value="date-desc">Newest First</option>
+                            <option value="date-asc">Oldest First</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Count -->
+            <div class="results-info">
+                <span id="resultsCount">0 guides</span>
+            </div>
+
+            <!-- Guides Grid -->
+            <section class="guides-grid" id="guidesContainer">
+                <!-- Populated by JavaScript -->
+                <div class="loading-state">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Empty State -->
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <i class="bi bi-inbox"></i>
+                <h3>No guides found</h3>
+                <p>Try adjusting your search or filters</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- PDF Preview Modal (Desktop Only) -->
+    <div class="modal fade" id="pdfPreviewModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pdfPreviewTitle">Preview</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="pdfPreviewFrame" width="100%" height="600px" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-text">Unofficial study hub for our T Level class. Materials belong to their respective owners. This site is for revision and classroom support only.</p>
+            <p class="footer-meta">&copy; 2025 ExamReady | Built for students, by students</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/guides.js"></script>
+</body>
+</html>
