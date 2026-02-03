@@ -21,9 +21,18 @@
      * Set Google Form URLs
      */
     function setFormURLs() {
+        const ask_questionBtn = document.getElementById('askQuestionBtn');
         const submitAnswerBtn = document.getElementById('submitAnswerBtn');
         const appreciateBtn = document.getElementById('appreciateBtn');
-        
+        const suggest_improvementsBtn = document.getElementById('suggestImprovementsBtn');
+
+        if (suggest_improvementsBtn) {
+            suggest_improvementsBtn.href = EXAMREADY_DATA.google_forms.suggest_improvements;
+        }
+
+        if (ask_questionBtn) {
+            ask_questionBtn.href = EXAMREADY_DATA.google_forms.ask_questions;
+        }
         if (submitAnswerBtn) {
             submitAnswerBtn.href = EXAMREADY_DATA.google_forms.submit_answer;
         }

@@ -36,7 +36,7 @@ const EXAMREADY_DATA = {
             "tags": ["Task 2", "ASP.NET"],
             "filename": "01_Setup_MVC_Environment.pdf",
             "path": "pdfs/guides/01_Setup_MVC_Environment.pdf",
-            "updated": "2026-02-12"
+            "updated": "2026-01-12"
         },
         {
             "id": "doc002",
@@ -76,7 +76,7 @@ const EXAMREADY_DATA = {
             "tags": ["Task 2", "Database", "ASP.NET"],
             "filename": "05_Create_Product_Form.pdf",
             "path": "pdfs/guides/05_Create_Product_Form.pdf",
-            "updated": "2026-02-01"
+            "updated": "2026-01-29"
         },
         {
             "id": "doc006",
@@ -86,7 +86,7 @@ const EXAMREADY_DATA = {
             "tags": ["Task 2", "Database", "ASP.NET"],
             "filename": "06_Update_Delete_Product.pdf",
             "path": "pdfs/guides/06_Update_Delete_Product.pdf",
-            "updated": "2026-02-01"
+            "updated": "2026-01-31"
         },
         {
             "id": "doc007",
@@ -96,7 +96,7 @@ const EXAMREADY_DATA = {
             "tags": ["Task 2", "ASP.NET"],
             "filename": "07_Install_Identity_And_Add_ApplicationUser.pdf",
             "path": "pdfs/guides/07_Install_Identity_And_Add_ApplicationUser.pdf",
-            "updated": "2026-02-02"
+            "updated": "2026-02-01"
         },
         {
             "id": "doc008",
