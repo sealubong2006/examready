@@ -2,6 +2,9 @@
 
 A lightweight, front-end only study website for T Level exam preparation. Built with HTML, CSS, Bootstrap, and vanilla JavaScript with no backend dependencies.
 
+##LIVE SITE
+https://sealubong2006.github.io/examready/index.html
+
 ## 🎯 Purpose
 
 ExamReady provides T Level students with a centralized hub for:
