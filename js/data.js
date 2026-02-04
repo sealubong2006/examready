@@ -17,7 +17,8 @@ const EXAMREADY_DATA = {
         "Task 3B",
         "ASP.NET",
         "Database",
-        "Errors"
+        "Errors",
+        "Exemplars",
     ],
     
     "google_forms": {
@@ -118,6 +119,37 @@ const EXAMREADY_DATA = {
             "path": "pdfs/guides/09_User_Registration_System.pdf",
             "updated": "2026-02-03"
         },
+        {
+            "id": "doc017",
+            "title": "2024 Distinction Exemplars",
+            "type": "guide",
+            "task": ["Task 1","Task 2","Task 3A","Task 3B"],
+            "tags": ["Exemplars"],
+            "filename": "2024_Distinction_Exemplars.pdf",
+            "path": "pdfs/guides/2024_Distinction_Exemplars.pdf",
+            "updated": "2026-02-04"
+        },
+        {
+            "id": "doc018",
+            "title": "2023 Distinction Exemplars",
+            "type": "guide",
+            "task": ["Task 1","Task 2","Task 3A","Task 3B"],
+            "tags": ["Exemplars"],
+            "filename": "2023_Distinction_Exemplars.pdf",
+            "path": "pdfs/guides/2023_Distinction_Exemplars.pdf",
+            "updated": "2026-02-04"
+        },
+        {
+            "id": "doc019",
+            "title": "2022 Distinction Exemplars",
+            "type": "guide",
+            "task": ["Task 1","Task 2","Task 3A","Task 3B"],
+            "tags": ["Exemplars"],
+            "filename": "2022_Distinction_Exemplars.pdf",
+            "path": "pdfs/guides/2022_Distinction_Exemplars.pdf",
+            "updated": "2026-02-04"
+        },
+
         {
             "id": "doc010",
             "title": "Task 1 Walkthrough Step 2",
