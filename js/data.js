@@ -152,13 +152,13 @@ const EXAMREADY_DATA = {
 
         {
             "id": "doc010",
-            "title": "Task 1 Walkthrough Step 2",
+            "title": "Task 1 Walkthrough and Implementation",
             "type": "task",
             "task": "Task 1",
             "tags": ["Task 1"],
-            "filename": "Task1_Step2_Implementation.pdf",
-            "path": "pdfs/tasks/task1/Task1_Step2_Implementation.pdf",
-            "updated": "2025-01-11"
+            "filename": "TLevel Digital_Task 1_Guide_(repeatable For Any Scenario).pdf",
+            "path": "pdfs/tasks/task1/TLevel Digital_Task 1_Guide_(repeatable For Any Scenario).pdf",
+            "updated": "2026-02-06"
         },
         {
             "id": "doc011",
