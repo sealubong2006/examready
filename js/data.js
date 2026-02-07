@@ -120,6 +120,16 @@ const EXAMREADY_DATA = {
             "updated": "2026-02-03"
         },
         {
+            "id": "doc010",
+            "title": "10. User Login and Logout System",
+            "type": "guide",
+            "task": "Task 2",
+            "tags": ["Task 2", "ASP.NET"],
+            "filename": "10_User_Login_Logout.pdf",
+            "path": "pdfs/guides/10_User_Login_Logout.pdf",
+            "updated": "2026-02-07"
+        },
+        {
             "id": "doc017",
             "title": "2024 Distinction Exemplars",
             "type": "guide",
@@ -150,8 +160,9 @@ const EXAMREADY_DATA = {
             "updated": "2026-02-04"
         },
 
+
         {
-            "id": "doc010",
+            "id": "doc020",
             "title": "Task 1 Walkthrough and Implementation",
             "type": "task",
             "task": "Task 1",
