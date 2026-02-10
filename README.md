@@ -224,6 +224,8 @@ This project is for educational purposes. All T Level materials belong to their 
 ## 🙏 Acknowledgments
 
 Built for students, by students. This is an unofficial study resource for classroom support only.
+Greatful to Ethan Greatorex for his awesome contribution also find his website below
+[Ethan's Website](https://ethangreatorex.co.uk/)
 
 ---
 
