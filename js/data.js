@@ -19,6 +19,7 @@ const EXAMREADY_DATA = {
         "Database",
         "Errors",
         "Exemplars",
+        "Contribution"
     ],
     
     "google_forms": {
@@ -128,6 +129,34 @@ const EXAMREADY_DATA = {
             "filename": "10_User_Login_Logout.pdf",
             "path": "pdfs/guides/10_User_Login_Logout.pdf",
             "updated": "2026-02-07"
+        },
+        {
+            "id": "doc021",
+            "title": "11. Cart and Cart Items Implementation Part 1",
+            "type": "guide",
+            "task": "Task 2",
+            "tags": ["Task 2", "ASP.NET"],
+            "filename": "11_Cart_And_Cart_Items_Part_1.pdf",
+            "path": "pdfs/guides/11_Cart_And_Cart_Items_Part_1.pdf",
+            "updated": "2026-02-10"
+        },
+        {
+            "id": "doc022",
+            "title": "12. Cart and Cart Items Implementation Part 2",
+            "type": "guide",
+            "task": "Task 2",
+            "tags": ["Task 2", "ASP.NET"],
+            "filename": "12_Cart_And_Cart_Items_Part_2.pdf",
+            "path": "pdfs/guides/12_Cart_And_Cart_Items_Part_2.pdf",
+            "updated": "2026-02-11"
+        },
+        {
+            "id": "doc023",
+            "title": "Ethan's Guide and Shortcuts for ASP.NET Core Check Navigation Bar For Link",
+            "type": "Contribution",
+            "task": "Task 2",
+            "tags": ["Task 2", "ASP.NET"],
+            "updated": "2026-02-12"
         },
         {
             "id": "doc017",
