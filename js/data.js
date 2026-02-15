@@ -159,6 +159,17 @@ const EXAMREADY_DATA = {
             "updated": "2026-02-12"
         },
         {
+            "id": "doc024",
+            "title": "13. Booking System Implementation Guide",
+            "type": "guide",
+            "task": "Task 2",
+            "tags": ["Task 2", "ASP.NET"],
+            "updated": "2026-02-12",
+            "filename": "13_Booking.pdf",
+            "path": "pdfs/guides/13_Booking.pdf",
+            "updated": "2026-02-14"
+        },
+        {
             "id": "doc017",
             "title": "2024 Distinction Exemplars",
             "type": "guide",
@@ -202,63 +213,43 @@ const EXAMREADY_DATA = {
         },
         {
             "id": "doc011",
-            "title": "Task 2 Database Setup",
+            "title": "Task 2 Assets and Content Log Guide",
             "type": "task",
             "task": "Task 2",
-            "tags": ["Task 2", "Database"],
-            "filename": "Task2_Database_Setup.pdf",
-            "path": "pdfs/tasks/task2/Task2_Database_Setup.pdf",
-            "updated": "2025-01-14"
+            "tags": ["Task 2"],
+            "filename": "task2_assets_and_content_log_guide.pdf",
+            "path": "pdfs/tasks/task2/task2_assets_and_content_log_guide.pdf",
+            "updated": "2026-02-14"
         },
         {
             "id": "doc012",
-            "title": "Task 2 Query Guide",
+            "title": "Task 3A Walkthrough and Implementation",
             "type": "task",
-            "task": "Task 2",
-            "tags": ["Task 2", "Database"],
-            "filename": "Task2_Query_Guide.pdf",
-            "path": "pdfs/tasks/task2/Task2_Query_Guide.pdf",
-            "updated": "2025-01-16"
+            "task": "Task 3A",
+            "tags": ["Task 3A"],
+            "filename": "task3a_guide_sample_and_model_answer.pdf",
+            "path": "pdfs/tasks/task3a/task3a_guide_sample_and_model_answer.pdf",
+            "updated": "2026-02-14"
         },
         {
             "id": "doc013",
-            "title": "Task 3A Project Structure",
-            "type": "task",
-            "task": "Task 3A",
-            "tags": ["Task 3A", "ASP.NET"],
-            "filename": "Task3A_Project_Structure.pdf",
-            "path": "pdfs/tasks/task3a/Task3A_Project_Structure.pdf",
-            "updated": "2025-01-19"
-        },
-        {
-            "id": "doc014",
-            "title": "Task 3A Data Models",
-            "type": "task",
-            "task": "Task 3A",
-            "tags": ["Task 3A", "Database"],
-            "filename": "Task3A_Data_Models.pdf",
-            "path": "pdfs/tasks/task3a/Task3A_Data_Models.pdf",
-            "updated": "2025-01-21"
-        },
-        {
-            "id": "doc015",
-            "title": "Task 3B Testing Guide",
+            "title": "Task 3B Walkthrough and Implementation",
             "type": "task",
             "task": "Task 3B",
             "tags": ["Task 3B"],
-            "filename": "Task3B_Testing_Guide.pdf",
-            "path": "pdfs/tasks/task3b/Task3B_Testing_Guide.pdf",
-            "updated": "2025-01-24"
+            "filename": "task3b_guide_and_sample_model_answer.pdf",
+            "path": "pdfs/tasks/task3b/task3b_guide_and_sample_model_answer.pdf",
+            "updated": "2026-02-14"
         },
         {
-            "id": "doc016",
-            "title": "Task 3B Error Handling",
+            "id": "doc014",
+            "title": "Task 1 Diagrams Video Links and Guide",
             "type": "task",
-            "task": "Task 3B",
-            "tags": ["Task 3B", "Errors"],
-            "filename": "Task3B_Error_Handling.pdf",
-            "path": "pdfs/tasks/task3b/Task3B_Error_Handling.pdf",
-            "updated": "2025-01-26"
+            "task": "Task 1",
+            "tags": ["Task 1"],
+            "filename": "task1_diagrams_video_link_guide.pdf",
+            "path": "pdfs/tasks/task1/task1_diagrams_video_link_guide.pdf",
+            "updated": "2026-02-15"
         }
     ],
     
