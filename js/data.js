@@ -170,6 +170,17 @@ const EXAMREADY_DATA = {
             "updated": "2026-02-14"
         },
         {
+            "id": "doc025",
+            "title": "14. Final Guide with Admin Booking Controller",
+            "type": "guide",
+            "task": "Task 2",
+            "tags": ["Task 2", "ASP.NET"],
+            "updated": "2026-02-12",
+            "filename": "final_guide_with_admin_booking_controller.pdf",
+            "path": "pdfs/guides/final_guide_with_admin_booking_controller.pdf",
+            "updated": "2026-02-27"
+        },
+        {
             "id": "doc017",
             "title": "2024 Distinction Exemplars",
             "type": "guide",
